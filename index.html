@@ -42,12 +42,16 @@
         class="d-flex col-7 justify-content-evenly align-items-center textDecoration"
       >
         <a href="#" class="fw-bold">Home</a>
-        <a href="#" class="fw-bold">Features</a>
-        <a href="#" class="fw-bold">Community</a>
+        <a href="#OurClients" class="fw-bold">Our clients</a>
+        <a href="#Members" class="fw-bold">Community</a>
         <a href="#" class="fw-bold">Blog</a>
-        <a href="#" class="fw-bold">Pricing</a>
-
-        <button class="buttonRegisterNow btn btn-success">
+        <a href="#" class="fw-bold">Contact</a>
+        <button
+          type="button"
+          class="buttonRegisterNow btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#mojModal"
+        >
           Log in<span class="ms-2">&#8594;</span>
         </button>
       </div>
@@ -65,7 +69,12 @@
               Where to grow your business as a photographer: site or social
               media?
             </p>
-            <button class="registerButton btn btn-success px-4 py-2">
+            <button
+              type="button"
+              class="buttonRegisterNow btn btn-success"
+              data-bs-toggle="modal"
+              data-bs-target="#mojModal"
+            >
               Register
             </button>
           </div>
@@ -83,7 +92,7 @@
     </div>
     <!-- Our clients -->
     <div class="container d-flex justify-content-center align-items-center">
-      <div class="d-flex flex-column align-items-center">
+      <div id="OurClients" class="d-flex flex-column align-items-center">
         <h1 class="color4D4D4D mt-3 fw-bold">Our clients</h1>
         <p class="color717171 mt-1">
           We have been working with some Fortune 500+ clients
@@ -150,7 +159,7 @@
       <div>
         <img src="css/slike/Nexcent_Development_2.png" />
       </div>
-      <div class="col-5">
+      <div id="Members" class="col-5">
         <h2 class="color4D4D4D fw-bold">
           The unseen of spending three years at Pixelgrade
         </h2>
@@ -160,7 +169,12 @@
           reprehenderit. Exercitationem eius ex sunt molestiae vel perferendis
           eum voluptatum illo facilis?
         </p>
-        <button class="registerButton btn btn-success px-4 py-2">
+        <button
+          type="button"
+          class="buttonRegisterNow btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#mojModal"
+        >
           Learn more
         </button>
       </div>
@@ -254,7 +268,12 @@
           quis massa. Praesent felis est, finibus et nisi ac, hendrerit
           venenatis libero. Donec consectetur faucibus ipsum id gravida.
         </p>
-        <button class="registerButton btn btn-success px-4 py-2">
+        <button
+          type="button"
+          class="buttonRegisterNow btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#mojModal"
+        >
           Learn more
         </button>
       </div>
@@ -292,6 +311,9 @@
               alt="Nexcent Client Logos"
             />
             <button
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#mojModal"
               class="fw-bold color4caf4f meetAllCustomersButton btn btn-success"
             >
               Meet all customers<span class="ms-2">&#8594;</span>
@@ -311,6 +333,41 @@
         how our community are increasing their membership income and lot's
         more.​
       </p>
+    </div>
+    <!-- MODAL ZA LOG IN -->
+    <div
+      class="modal fade"
+      id="mojModal"
+      tabindex="-1"
+      aria-labelledby="mojModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mojModalLabel">Demo!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">Demo!</div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- SCRIPTS -->
     <script

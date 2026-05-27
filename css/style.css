@@ -13,7 +13,9 @@ html {
 }
 
 .navigation {
-  height: 58.76px;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .brandNameColor {
@@ -43,15 +45,6 @@ html {
 }
 
 .buttonRegisterNow {
-  background-color: #4caf4f;
-  width: 160.25px;
-  height: 45.49px;
-  border: 0;
-  color: white;
-  border-radius: 4px;
-}
-
-.registerButton {
   background-color: #4caf4f;
   width: 160.25px;
   height: 45.49px;
@@ -101,4 +94,7 @@ html {
   background-color: #f5f7fa;
   font-size: 1.2rem;
   margin-left: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
 }
