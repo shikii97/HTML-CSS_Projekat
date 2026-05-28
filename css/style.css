@@ -9,7 +9,6 @@
 
 html {
   scroll-behavior: smooth;
-  line-height: 1.5;
 }
 
 .navigation {
@@ -94,6 +93,56 @@ html {
   background-color: #f5f7fa;
   font-size: 1.2rem;
   margin-left: 35px;
+}
+
+.blogTextBorder {
+  background-color: #f5f7fa;
+  border: solid #f5f7fa 2px;
+  width: 320px;
+  height: 200px;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  top: -80px;
+}
+
+.demoSection {
+  background-color: #f5f7fa;
+  height: 320px;
+}
+
+.demoSectionText {
+  color: #263238;
+  font-size: 3.5rem;
+}
+
+.footer {
+  background-color: #263238;
+  height: 320px;
+}
+
+.footerLinks {
+  row-gap: 10px;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.newsletter-group {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 260px;
+}
+.newsletter-group .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+.newsletter-group .form-control:focus {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 @media only screen and (max-width: 1024px) {
